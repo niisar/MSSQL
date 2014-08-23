@@ -1,0 +1,194 @@
+<?xml-stylesheet type="text/xsl" href="style/dd.xslt"?>
+<tables>
+    <table name="tbl_BookAuthor">
+        <row>
+            <Field></Field>
+            <ColumnName>bookAuthorId</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons>PK</Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+        <row>
+            <Field></Field>
+            <ColumnName>itemId</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons>FK</Cons>
+            <Ref>tbl_ItemDetails</Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+        <row>
+            <Field></Field>
+            <ColumnName>authorId</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons>FK</Cons>
+            <Ref>tbl_Author</Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+    </table>
+    <table name="tbl_Author">
+        <row>
+            <Field></Field>
+            <ColumnName>authorId</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons>PK</Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+        <row>
+            <Field></Field>
+            <ColumnName>authorCode</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons></Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+        <row>
+            <Field></Field>
+            <ColumnName>authorName</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons></Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+        <row>
+            <Field></Field>
+            <ColumnName>authorAddress</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>max</Prec>
+            <Cons></Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+        <row>
+            <Field></Field>
+            <ColumnName>authorContactNo</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons></Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+
+        <row>
+            <Field></Field>
+            <ColumnName>gender</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons></Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+
+        <row>
+            <Field></Field>
+            <ColumnName>authorEmailId</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons></Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+      
+ 
+        <row>
+            <Field></Field>
+            <ColumnName>description</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>max</Prec>
+            <Cons></Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+    </table>
+
+    <table name="tbl_ItemDetails">
+        <row>
+            <Field></Field>
+            <ColumnName>itemId</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons>PK</Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+        <row>
+            <Field></Field>
+            <ColumnName>itemTitle</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>max</Prec>
+            <Cons></Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+
+        <row>
+            <Field></Field>
+            <ColumnName>itemEdition</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons></Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+
+ 
+        <row>
+            <Field></Field>
+            <ColumnName>ISBN</ColumnName>
+            <DataType>varchar</DataType>
+            <Prec>50</Prec>
+            <Cons></Cons>
+            <Ref></Ref>
+            <Coded></Coded>
+            <Def></Def>
+            <Description></Description>
+        </row>
+ 
+    </table>
+</tables>
